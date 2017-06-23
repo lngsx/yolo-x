@@ -1,0 +1,78 @@
+{
+  "name": "yolo-npm",
+  "version": "1.0.0",
+  "description": "The NPM template I like ❤️",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luangch/yolo-npm.git"
+  },
+  "keywords": [
+    "npm",
+    "template",
+    "boilerplate",
+    "starter",
+    "kit",
+    "nahee"
+  ],
+  "author": "Luang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luangch/yolo-npm/issues"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "xo": "xo --fix || true"
+  },
+  "dependencies": {
+    "next": "^2.4.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-jsx": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-config-xo": "^0.18.2",
+    "eslint-config-xo-react": "^0.12.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^7.1.0",
+    "xo": "^0.18.2"
+  },
+  "homepage": "https://github.com/luangch/yolo-npm#readme",
+  "xo": {
+    "extends": [
+      "xo",
+      "xo-react",
+      "plugin:react/recommended"
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": "off",
+      "react/display-name": "off",
+      "unicorn/filename-case": "off",
+      "react/forbid-component-props": [
+        0
+      ],
+      "react/jsx-indent": [
+        1,
+        "tab"
+      ],
+      "react/jsx-indent-props": [
+        1,
+        "tab"
+      ],
+      "array-bracket-spacing": [
+        "error",
+        "never"
+      ],
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ]
+    }
+  }
+}
