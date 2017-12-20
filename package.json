@@ -27,10 +27,10 @@
     "xo": "xo --fix || true"
   },
   "dependencies": {
-    "next": "^2.4.4",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "styled-jsx": "^1.0.5"
+    "next": "^4.1.4",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "styled-jsx": "^2.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
