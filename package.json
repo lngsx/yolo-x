@@ -27,6 +27,7 @@
     "xo": "xo --fix || true"
   },
   "dependencies": {
+    "gravatar": "^1.6.0",
     "next": "^4.1.4",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
